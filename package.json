@@ -12,7 +12,7 @@
     "node": ">=10.16"
   },
   "scripts": {
-    "postinstall": "npm run build",
+    "postinstall": "npm run build, yarn migrate",
     "start:prod": "node dist/index.js",
     "build": "lb-tsc",
     "build:watch": "lb-tsc --watch",
