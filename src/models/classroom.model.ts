@@ -15,6 +15,21 @@ export class Classroom extends Entity {
   })
   name: string;
 
+  @property({
+    type: 'string',
+  })
+  part: string;
+
+  @property({
+    type: 'string',
+  })
+  topic: string;
+
+  @property({
+    type: 'string',
+  })
+  room: string;
+
 
   constructor(data?: Partial<Classroom>) {
     super(data);
